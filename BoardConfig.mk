@@ -17,6 +17,8 @@
 # inherit from common apq8064
 -include device/oppo/apq8064-common/BoardConfigCommon.mk
 
+TARGET_OTA_ASSERT_DEVICE := n1,N1
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_n1_defconfig
 
@@ -26,9 +28,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oppo/n1/bluetooth
 # Camera
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
 BOARD_FIX_FACE_DETECTION_SCORE := true
-
-# CM Hardware
-BOARD_HARDWARE_CLASS += device/oppo/n1/cmhw
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 10485760
