@@ -1,0 +1,17 @@
+[
+  {
+    "repository":  "AICP/device_oppo_n1",
+    "target_path": "device/oppo/n1",
+    "branch":      "kitkat"
+  },
+  {
+    "repository":  "Cyanogenmod/android_kernel_oppo_n1",
+    "target_path": "kernel/oppo/n1",
+    "branch":      "cm-11.0"
+  },
+  {
+    "repository":  "AOKP/vendor_oppo",
+    "target_path": "vendor/oppo",
+    "branch":      "kitkat"
+  }
+]
